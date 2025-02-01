@@ -1,0 +1,3 @@
+C:/Users/kotko/Desktop/SUDOKU/build/CMakeFiles/Sudoku.dir
+C:/Users/kotko/Desktop/SUDOKU/build/CMakeFiles/edit_cache.dir
+C:/Users/kotko/Desktop/SUDOKU/build/CMakeFiles/rebuild_cache.dir
