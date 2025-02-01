@@ -1,6 +1,6 @@
 CMakeFiles/Sudoku.dir/src/Board.cpp.obj: \
- C:\Users\kotko\Desktop\SUDOKU\src\Board.cpp \
- C:/Users/kotko/Desktop/SUDOKU/include/Board.h \
+ C:\Users\kotko\Documents\GitHub\Sudoku\SUDOKU\src\Board.cpp \
+ C:/Users/kotko/Documents/GitHub/Sudoku/SUDOKU/include/Board.h \
  C:/msys64/ucrt64/include/c++/14.2.0/iostream \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \

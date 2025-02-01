@@ -1,5 +1,5 @@
 CMakeFiles/Sudoku.dir/src/main.cpp.obj: \
- C:\Users\kotko\Desktop\SUDOKU\src\main.cpp \
+ C:\Users\kotko\Documents\GitHub\Sudoku\SUDOKU\src\main.cpp \
  C:/msys64/ucrt64/include/c++/14.2.0/iostream \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -136,7 +136,7 @@ CMakeFiles/Sudoku.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/istream \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc \
- C:/Users/kotko/Desktop/SUDOKU/include/Game.h \
+ C:/Users/kotko/Documents/GitHub/Sudoku/SUDOKU/include/Game.h \
  C:/Users/kotko/Documents/libs/SFML-3.0.0/include/SFML/Graphics.hpp \
  C:/Users/kotko/Documents/libs/SFML-3.0.0/include/SFML/Graphics/BlendMode.hpp \
  C:/Users/kotko/Documents/libs/SFML-3.0.0/include/SFML/Graphics/Export.hpp \

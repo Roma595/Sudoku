@@ -17,6 +17,4 @@ public:
 
 
     int board[9][9] = {0};
-    
-
 };

@@ -1,6 +1,6 @@
 CMakeFiles/Sudoku.dir/src/Game.cpp.obj: \
- C:\Users\kotko\Desktop\SUDOKU\src\Game.cpp \
- C:/Users/kotko/Desktop/SUDOKU/include/Game.h \
+ C:\Users\kotko\Documents\GitHub\Sudoku\SUDOKU\src\Game.cpp \
+ C:/Users/kotko/Documents/GitHub/Sudoku/SUDOKU/include/Game.h \
  C:/Users/kotko/Documents/libs/SFML-3.0.0/include/SFML/Graphics.hpp \
  C:/Users/kotko/Documents/libs/SFML-3.0.0/include/SFML/Graphics/BlendMode.hpp \
  C:/Users/kotko/Documents/libs/SFML-3.0.0/include/SFML/Graphics/Export.hpp \
@@ -281,7 +281,7 @@ CMakeFiles/Sudoku.dir/src/Game.cpp.obj: \
  C:/Users/kotko/Documents/libs/SFML-3.0.0/include/SFML/System/InputStream.hpp \
  C:/Users/kotko/Documents/libs/SFML-3.0.0/include/SFML/System/MemoryInputStream.hpp \
  C:/Users/kotko/Documents/libs/SFML-3.0.0/include/SFML/System/Sleep.hpp \
- C:/Users/kotko/Desktop/SUDOKU/include/Board.h \
+ C:/Users/kotko/Documents/GitHub/Sudoku/SUDOKU/include/Board.h \
  C:/msys64/ucrt64/include/c++/14.2.0/iostream \
  C:/msys64/ucrt64/include/c++/14.2.0/random \
  C:/msys64/ucrt64/include/c++/14.2.0/cmath \

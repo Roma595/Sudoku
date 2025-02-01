@@ -32,4 +32,4 @@ target_link_libraries(Sudoku PRIVATE
     gdi32
 )
 
-target_include_directories(Sudoku PRIVATE "C:/Users/kotko/Documents/libs/SFML-3.0.0/include" "C:/Users/kotko/Desktop/SUDOKU/include")
+target_include_directories(Sudoku PRIVATE "C:/Users/kotko/Documents/libs/SFML-3.0.0/include" "C:/Users/kotko/Documents/GitHub/Sudoku/SUDOKU/include")

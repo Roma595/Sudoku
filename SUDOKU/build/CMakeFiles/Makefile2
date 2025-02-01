@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\kotko\Desktop\SUDOKU
+CMAKE_SOURCE_DIR = C:\Users\kotko\Documents\GitHub\Sudoku\SUDOKU
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\kotko\Desktop\SUDOKU\build
+CMAKE_BINARY_DIR = C:\Users\kotko\Documents\GitHub\Sudoku\SUDOKU\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -84,14 +84,14 @@ clean: CMakeFiles/Sudoku.dir/clean
 CMakeFiles/Sudoku.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sudoku.dir\build.make CMakeFiles/Sudoku.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sudoku.dir\build.make CMakeFiles/Sudoku.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\kotko\Desktop\SUDOKU\build\CMakeFiles --progress-num=1,2,3,4 "Built target Sudoku"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\kotko\Documents\GitHub\Sudoku\SUDOKU\build\CMakeFiles --progress-num=1,2,3,4 "Built target Sudoku"
 .PHONY : CMakeFiles/Sudoku.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Sudoku.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kotko\Desktop\SUDOKU\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kotko\Documents\GitHub\Sudoku\SUDOKU\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Sudoku.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kotko\Desktop\SUDOKU\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kotko\Documents\GitHub\Sudoku\SUDOKU\build\CMakeFiles 0
 .PHONY : CMakeFiles/Sudoku.dir/rule
 
 # Convenience name for target.
@@ -101,7 +101,7 @@ Sudoku: CMakeFiles/Sudoku.dir/rule
 # codegen rule for target.
 CMakeFiles/Sudoku.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sudoku.dir\build.make CMakeFiles/Sudoku.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\kotko\Desktop\SUDOKU\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target Sudoku"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\kotko\Documents\GitHub\Sudoku\SUDOKU\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target Sudoku"
 .PHONY : CMakeFiles/Sudoku.dir/codegen
 
 # clean rule for target.

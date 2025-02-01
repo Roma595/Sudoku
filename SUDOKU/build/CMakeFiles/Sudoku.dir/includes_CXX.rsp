@@ -1,1 +1,1 @@
--IC:/Users/kotko/Desktop/SUDOKU/include -isystem "C:/Users/kotko/Documents/libs/SFML-3.0.0/include"
+-IC:/Users/kotko/Documents/GitHub/Sudoku/SUDOKU/include -isystem "C:/Users/kotko/Documents/libs/SFML-3.0.0/include"

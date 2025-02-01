@@ -27,7 +27,7 @@ void fill_grid(sf::RenderWindow &window, Board& board, std::vector<std::pair<int
                 continue;
             }
             sf::Font font;
-            bool loaf_font = font.openFromFile("C:/Users/kotko/Desktop/SUDOKU/resources/Tuffy.ttf");    
+            bool loaf_font = font.openFromFile("C:/Users/kotko/Documents/GitHub/Sudoku/SUDOKU/resources/Tuffy.ttf");    
             sf::Text number(font,sf::String(std::to_string(board.board[i][j])),50U);
 
             number.setFillColor(sf::Color::Black);
@@ -108,12 +108,6 @@ void Game::run() {
     
     Board board;
     board.initialize_board();
-    for (int i = 0; i < 9; i++){
-        for ( int j = 0; j < 9; j++){
-            std::cout << board.board[i][j] << " ";
-        }
-        std::cout << std::endl;
-    }
     board.generate_sudoku();
     std::vector<std::pair<int,int>> inaccessible_cells = get_inaccessible_cells(board);
 
@@ -129,7 +123,7 @@ void Game::run() {
 
         if(board.check_board_is_full()){
             sf::Font font;
-            bool load_font = font.openFromFile("C:/Users/kotko/Desktop/SUDOKU/resources/Tuffy.ttf");
+            bool load_font = font.openFromFile("C:/Users/kotko/Documents/GitHub/Sudoku/SUDOKU/resources/Tuffy.ttf");
             sf::Text text(font,sf::String("You won!"),50);
             text.setFillColor(sf::Color::Green);
 
