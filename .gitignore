@@ -1,0 +1,48 @@
+# Игнорировать файлы окружения
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Игнорировать зависимости
+node_modules/
+bower_components/
+
+# Игнорировать логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.db
+
+# Игнорировать IDE/редактор файлы
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Игнорировать скомпилированные файлы
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.o
+*.out
+
+# Игнорировать файлы пакетов
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Игнорировать файлы специфичные для ОС
+*.swp
+*.swo
