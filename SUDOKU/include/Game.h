@@ -1,9 +1,8 @@
-#include <SFML/Graphics.hpp>
-#include <vector>
+#pragma once
 
-class Game{
+class Game {
 
 public:
     void run();
-    
+
 };

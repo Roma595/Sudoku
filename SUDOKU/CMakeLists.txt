@@ -2,25 +2,20 @@ cmake_minimum_required(VERSION 3.10)
 
 project(Sudoku VERSION 1.0)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-set(SFML_DIR "C:/Users/kotko/Documents/libs/SFML-3.0.0/lib/cmake/SFML")
 
 set(SFML_STATIC_LIBRARIES TRUE)
 add_definitions(-DSFML_STATIC)
 
 find_package(SFML REQUIRED COMPONENTS System Window Graphics Network)
 
-include_directories("C:/Users/kotko/Documents/libs/SFML-3.0.0/include")
-link_directories("C:/Users/kotko/Documents/libs/SFML-3.0.0/lib")
-
 if (NOT SFML_FOUND)
     message(FATAL_ERROR "SFML not found!")
 endif()
 
-file(GLOB SOURCES "src/*.cpp")
-
+set(SOURCES 
+    src/main.cpp src/Board.cpp src/Game.cpp)
 add_executable(Sudoku ${SOURCES})
 
 target_link_libraries(Sudoku PRIVATE
@@ -32,4 +27,4 @@ target_link_libraries(Sudoku PRIVATE
     gdi32
 )
 
-target_include_directories(Sudoku PRIVATE "C:/Users/kotko/Documents/libs/SFML-3.0.0/include" "C:/Users/kotko/Documents/GitHub/Sudoku/SUDOKU/include")
+target_include_directories(Sudoku PRIVATE SFML_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
